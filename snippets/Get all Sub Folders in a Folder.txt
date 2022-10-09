@@ -1,0 +1,5 @@
+var directoryObj = new DzDir("full path to directory");
+var subFolderList = directoryObj.entryList(directoryObj.Dirs);
+
+// the above will return [.] and [..] as first two directories.
+// actual sub-folders will start from index 2.

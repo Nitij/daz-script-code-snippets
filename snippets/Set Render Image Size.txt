@@ -1,0 +1,3 @@
+var renderManager = App.getRenderMgr();
+var renderOptions = renderManager.getRenderOptions();		
+renderOptions.imageSize = new Size(120,120);

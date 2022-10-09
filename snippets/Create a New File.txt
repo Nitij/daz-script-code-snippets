@@ -1,0 +1,3 @@
+var fileObj = new DzFile("file path");
+fileObj.open(DzFile.WriteOnly);
+fileObj.write("file contents");
